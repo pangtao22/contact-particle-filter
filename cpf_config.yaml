@@ -1,0 +1,59 @@
+active_link_idx:
+  - 5
+  - 6
+
+number_of_particles: 50
+tau_detection_margin: 2.0
+belief_confidence_margin: 5
+
+tau_low_pass_filter_config:
+  h: 0.01
+  w_cutoff: "inf"  #62.831 # 10 * 2 * pi
+
+friction_coefficient: 1.0
+
+standard_deviation: 0.1
+
+mesh_relative_paths:
+  - "/iiwa7_shifted_meshes/link_0.obj"
+  - "/iiwa7_shifted_meshes/link_1.obj"
+  - "/iiwa7_shifted_meshes/link_2.obj"
+  - "/iiwa7_shifted_meshes/link_3.obj"
+  - "/iiwa7_shifted_meshes/link_4.obj"
+  - "/iiwa7_shifted_meshes/link_5.obj"
+  - "/iiwa7_shifted_meshes/link_6.obj"
+  - "/iiwa7_shifted_meshes/link_7_w_ball.obj"
+
+mesh_translation:
+  - #0
+    - 0.
+    - 0.
+    - 0.
+  - #1
+    - 0.
+    - 0.
+    - 0.
+  - #2
+    - 0.
+    - 0.
+    - 0.
+  - #3
+    - 0.
+    - 0.
+    - 0.
+  - #4
+    - 0.
+    - 0.
+    - 0.
+  - #5
+    - 0.
+    - 0.
+    - 0.
+  - #6
+    - 0.
+    - 0.
+    - 0.
+  - #7
+    - 0.
+    - 0.
+    - 0.
